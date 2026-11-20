@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shuiqi Cheng</title>
+  <meta name="author" content="Shuiqi Cheng">
+  <meta name="description" content="Shuiqi Cheng is an engineer at EngineAI, working on robot foundation models for whole-body manipulation.">
+  <meta property="og:title" content="Shuiqi Cheng">
+  <meta property="og:description" content="Engineer at EngineAI, working on robot foundation models for whole-body manipulation.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="content profile">
+      <div class="avatar-frame">
+        <img src="photo.jpg" alt="Shuiqi Cheng overlooking a riverside city skyline">
+      </div>
+      <div class="profile-text">
+        <h1>Shuiqi Cheng</h1>
+        <p class="subtitle">Embodied AI · Robot Learning</p>
+        <p class="profile-links">
+          <a href="https://scholar.google.com/citations?user=fX7F-VUAAAAJ&amp;hl=zh-CN">Google Scholar</a>
+          <span aria-hidden="true">/</span>
+          <a href="https://github.com/shuiqicheng">GitHub</a>
+          <span aria-hidden="true">/</span>
+          <a href="mailto:chengshuiqi28@gmail.com">Email</a>
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <main class="content">
+    <section id="about">
+      <p>
+        I am an Engineer at <a href="https://www.engineai.com.cn/">EngineAI</a>, working on robot foundation models for whole-body manipulation. My work focuses on designing and building scalable robot learning systems, spanning large-scale pretraining, data pipelines, and real-world deployment.
+      </p>
+      <p>
+        Previously, I was a Research Intern at the <a href="https://www.sqz.ac.cn/en/">Shanghai Qi Zhi Institute</a>, where I was fortunate to be advised by Prof. <a href="http://hxu.rocks/">Huazhe Xu</a> and Dr. <a href="https://gemcollector.github.io/">Zhecheng Yuan</a>.
+      </p>
+    </section>
+
+    <!--
+    <section id="research">
+      <h2>Research Interests</h2>
+      <p>
+        My research interests lie in <strong>embodied AI</strong>, with a focus on <strong>whole-body loco-manipulation</strong> and <strong>large-scale pretraining of robot foundation models</strong>. I am particularly interested in understanding the scaling behavior of robot learning and developing scalable learning systems that enable generalizable and dexterous whole-body manipulation.
+      </p>
+    </section>
+    -->
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <p class="section-note">Papers sorted by recency. Representative papers are <span class="hl">highlighted</span>.</p>
+
+      <article class="publication highlight">
+        <div class="paper-media">
+          <video autoplay loop muted playsinline preload="metadata" aria-label="Awaken-HI humanoid demonstration">
+            <source src="assets/hi.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="paper-body">
+          <h3>
+            <a href="https://arxiv.org/pdf/2611.26420v1">Awaken-HI: Scaling Humanoid Intelligence with Whole-Body Human Experience</a>
+          </h3>
+          <p class="authors">EngineAI team</p>
+          <p class="meta"><span class="venue">Technical Report, 2026</span></p>
+          <!--
+          <p class="contribution"><strong>Contribution:</strong> Designed and built the end-to-end pretraining pipeline, from model architecture and data to real-world deployment.</p>
+          -->
+          <p class="paper-links">
+            <a href="https://arxiv.org/pdf/2611.26420v1">paper</a>
+            <span aria-hidden="true">/</span>
+            <a href="https://engineai-robotics.github.io/Awaken-HI/">project</a>
+            <span aria-hidden="true">/</span>
+            <a href="https://github.com/engineai-robotics/Awaken-HI">code</a>
+          </p>
+        </div>
+      </article>
+
+      <article class="publication highlight">
+        <div class="paper-media">
+          <video autoplay loop muted playsinline preload="metadata" aria-label="ViTaS visuomotor demonstration">
+            <source src="assets/vitas.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="paper-body">
+          <h3>
+            <a href="https://arxiv.org/pdf/2602.11643">ViTaS: Visual Tactile Soft Fusion Contrastive Learning for Visuomotor Learning</a>
+          </h3>
+          <p class="authors">Yufeng Tian*, <strong>Shuiqi Cheng</strong>*, Tianming Wei, Tianxing Zhou, Yuanhang Zhang, Zixian Liu, Qianwei Han, Zhecheng Yuan, Huazhe Xu</p>
+          <p class="meta"><span class="venue">ICRA 2026</span> <span class="oral">(Oral)</span></p>
+          <p class="paper-links">
+            <a href="https://arxiv.org/pdf/2602.11643">paper</a>
+            <span aria-hidden="true">/</span>
+            <a href="https://skyrainwind.github.io/ViTaS/index.html">project</a>
+            <span aria-hidden="true">/</span>
+            <a href="https://github.com/SkyRainWind/ViTaS">code</a>
+          </p>
+        </div>
+      </article>
+
+      <article class="publication">
+        <div class="paper-media">
+          <img src="assets/g0.png" alt="Overview of the Galaxea Open-World Dataset and G0 dual-system model">
+        </div>
+        <div class="paper-body">
+          <h3>
+            <a href="https://arxiv.org/pdf/2509.00576">Galaxea Open-World Dataset and G0 Dual-System VLA Model</a>
+          </h3>
+          <p class="authors">Tao Jiang*, Tianyuan Yuan*, Yicheng Liu*, Chenhao Lu, Jianning Cui, Xiao Liu, <strong>Shuiqi Cheng</strong>, Jiyang Gao, Huazhe Xu, Hang Zhao</p>
+          <p class="meta"><span class="venue">ICRA 2026</span></p>
+          <p class="paper-links">
+            <a href="https://arxiv.org/pdf/2509.00576">paper</a>
+            <span aria-hidden="true">/</span>
+            <a href="https://opengalaxea.github.io/GalaxeaVLA/">project</a>
+            <span aria-hidden="true">/</span>
+            <a href="https://github.com/OpenGalaxea/GalaxeaVLA">code</a>
+          </p>
+        </div>
+      </article>
+
+      <article class="publication">
+        <div class="paper-media">
+          <img src="assets/maniwhere.png" alt="Simulation and real-robot results from Learning to Manipulate Anywhere">
+        </div>
+        <div class="paper-body">
+          <h3>
+            <a href="https://arxiv.org/pdf/2407.15815">Learning to Manipulate Anywhere: A Visual Generalizable Framework For Reinforcement Learning</a>
+          </h3>
+          <p class="authors">Zhecheng Yuan*, Tianming Wei*, <strong>Shuiqi Cheng</strong>, Gu Zhang, Yuanpei Chen, Huazhe Xu</p>
+          <p class="meta"><span class="venue">Conference on Robot Learning (CoRL) 2024</span></p>
+          <p class="paper-links">
+            <a href="https://arxiv.org/pdf/2407.15815">paper</a>
+            <span aria-hidden="true">/</span>
+            <a href="https://gemcollector.github.io/maniwhere/">project</a>
+            <span aria-hidden="true">/</span>
+            <a href="https://github.com/gemcollector/maniwhere">code</a>
+          </p>
+        </div>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
